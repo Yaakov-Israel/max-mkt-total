@@ -1,0 +1,12 @@
+# Ignorar a pasta do ambiente virtual do Python
+venv/
+**/__pycache__/
+*.pyc
+
+# Ignorar o arquivo de segredos do Streamlit
+# Esta é a linha mais importante para nossa segurança!
+.streamlit/secrets.toml
+
+# Ignorar arquivos de sistema operacional (opcional, mas bom ter)
+.DS_Store
+Thumbs.db
