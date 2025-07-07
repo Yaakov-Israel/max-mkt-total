@@ -1,12 +1,45 @@
-# React + Vite
+# MaxMarketing Total V2 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Seu especialista de marketing digital com IA, pronto para transformar ideias em resultados.
 
-Currently, two official plugins are available:
+## Sobre o Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O **MaxMarketing Total** é o primeiro módulo comercial da suíte Max IA Empresarial. Nosso objetivo é democratizar o acesso a ferramentas de marketing digital de alta performance para Pequenas e Médias Empresas (PMEs) no Brasil, combinando uma interface intuitiva com o poder da Inteligência Artificial generativa do Google.
 
-## Expanding the ESLint configuration
+A **Versão 2** do projeto está sendo reescrita com uma arquitetura moderna para criar um Estúdio de Criação interativo, inspirado em plataformas como o Canva, mas com o diferencial da geração de conteúdo completo via IA.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🎯 Principais Funcionalidades
+
+* **🤖 Criador de Posts para Redes Sociais:** Gera conteúdo completo (texto, título, hashtags, imagem) pronto para compartilhar.
+* **✉️ Gerador de Campanhas Completas:** Cria pacotes de criativos para campanhas estratégicas.
+* **🛍️ Construtor de Ofertas:** Cria catálogos visuais de produtos e ofertas.
+* **📊 Estrategista de Mídia Digital:** Fornece análises e sugestões para otimização.
+* **🔐 Autenticação Segura:** Sistema completo de login, cadastro com chave de ativação e gerenciamento de contas.
+
+## 🛠️ Tecnologias Utilizadas (V2)
+
+* **Frontend:** [React](https://react.dev/) (com [Vite](https://vitejs.dev/)) e [Tailwind CSS](https://tailwindcss.com/)
+* **Backend (Planejado):** Python com [FastAPI](https://fastapi.tiangolo.com/)
+* **Inteligência Artificial:** Google Gemini API
+* **Hospedagem (Planejada):** [Firebase Hosting](https://firebase.google.com/docs/hosting) (para o Frontend) e [Google Cloud Run](https://cloud.google.com/run) (para o Backend)
+
+---
+
+## 🚀 Como Começar (Frontend Setup)
+
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/yaakov-israel/max-mkt-total.git](https://github.com/yaakov-israel/max-mkt-total.git)
+    cd max-mkt-total/frontend
+    ```
+
+2.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
+
+3.  **Execute o servidor de desenvolvimento:**
+    ```bash
+    npm run dev
+    ```
+    O app estará disponível em `http://localhost:5173`.
